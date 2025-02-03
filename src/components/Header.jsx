@@ -7,9 +7,9 @@ function Header({ toggleMenu, isOpen }) {
         {/* Botón de menú */}
         <button 
           onClick={toggleMenu} 
-          className="bg-green-600 py-2 px-4 rounded md:hidden"
+          className=" font-bold bg-green-600 py-2 px-4 rounded md:hidden"
         >
-          ▼
+         Menú de navegación ▼
         </button>
 
         {/* Menú desplegable en pantallas pequeñas */}
