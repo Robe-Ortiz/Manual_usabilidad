@@ -3,10 +3,10 @@ import React from 'react'
 function Testing() {
     return (
         <div className="p-4">
-          <h2 className='text-3xl font-bold mb-10 text-green-800 text-center'>6. Testing de Usabilidad en React.js</h2>
+          <h1 className='text-5xl font-bold mb-10 text-green-800 text-center'>Testing de Usabilidad en React.js</h1>
     
-          <section className="mb-6 bg-green-100 p-4 rounded-md">
-            <h3 className="text-2xl font-semibold mb-2 text-center text-green-800">Pruebas con usuarios</h3>
+          <section className="mb-6 bg-green-100 p-4 rounded-md max-w-5xl mx-auto">
+            <h3 className="text-3xl font-semibold mb-2 text-center text-green-800">Pruebas con usuarios</h3>
             <p className="text-base">
               Las pruebas con usuarios son una parte esencial del proceso de diseño de una aplicación, ya que proporcionan una visión directa de cómo los usuarios interactúan con la interfaz. Estas pruebas permiten identificar puntos débiles, áreas de confusión y oportunidades de mejora en el flujo de trabajo.
             </p>
@@ -17,8 +17,8 @@ function Testing() {
             </ul>
           </section>
     
-          <section className="mb-6 bg-green-100 p-4 rounded-md">
-            <h3 className="text-2xl font-semibold mb-2 text-center text-green-800">Herramientas para evaluar accesibilidad</h3>
+          <section className="mb-6 bg-green-100 p-4 rounded-md max-w-5xl mx-auto">
+            <h3 className="text-3xl font-semibold mb-2 text-center text-green-800">Herramientas para evaluar accesibilidad</h3>
             <p className="text-base">
               Evaluar la accesibilidad de una aplicación es fundamental para garantizar que todos los usuarios, independientemente de sus capacidades, puedan interactuar con ella de manera efectiva. Existen diversas herramientas que ayudan a analizar la accesibilidad en React.js y otros entornos.
             </p>
@@ -29,8 +29,8 @@ function Testing() {
             </ul>
           </section>
     
-          <section className="mb-6 bg-green-100 p-4 rounded-md">
-            <h3 className="text-2xl font-semibold mb-2 text-center text-green-800">Test A/B en diseño de apps</h3>
+          <section className="mb-6 bg-green-100 p-4 rounded-md max-w-5xl mx-auto">
+            <h3 className="text-3xl font-semibold mb-2 text-center text-green-800">Test A/B en diseño de apps</h3>
             <p className="text-base">
               Los test A/B son una forma eficaz de comparar dos versiones diferentes de un diseño para determinar cuál funciona mejor según el comportamiento de los usuarios. En React.js, puedes implementar pruebas A/B fácilmente para probar variaciones de interfaz o flujos de trabajo.
             </p>

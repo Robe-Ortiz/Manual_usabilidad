@@ -3,17 +3,17 @@ import React from 'react'
 function Navegacion() {
     return (
         <div className="p-4">
-          <h2 className='text-3xl font-bold mb-10 text-green-800 text-center'>4. Navegación y Flujo de Usuario</h2>
+          <h1 className='text-5xl font-bold mb-10 text-green-800 text-center'>Navegación y Flujo de Usuario</h1>
     
-          <section className="mb-6 bg-green-100 p-4 rounded-md">
-            <h3 className="text-2xl font-semibold mb-2 text-center text-green-800">Implementación de React Navigation</h3>
+          <section className="mb-6 bg-green-100 p-4 rounded-md max-w-5xl mx-auto">
+            <h3 className="text-3xl font-semibold mb-2 text-center text-green-800">Implementación de React Navigation</h3>
             <p className="text-base">
               React Navigation es una librería popular para gestionar la navegación dentro de aplicaciones React Native. Permite crear flujos de usuario y gestionar el estado de las pantallas. Ofrece diversas opciones de navegación, como navegación en pilas, en pestañas y en cajón, lo que facilita la construcción de interfaces de usuario dinámicas y atractivas.
             </p>
           </section>
     
-          <section className="mb-6 bg-green-100 p-4 rounded-md">
-            <h3 className="text-2xl font-semibold mb-2 text-center text-green-800">Tipos de navegación (Stack, Tabs, Drawer)</h3>
+          <section className="mb-6 bg-green-100 p-4 rounded-md max-w-5xl mx-auto">
+            <h3 className="text-3xl font-semibold mb-2 text-center text-green-800">Tipos de navegación (Stack, Tabs, Drawer)</h3>
             <p className="text-base mb-4">
               React Navigation ofrece varios tipos de navegación que puedes utilizar dependiendo de la estructura y las necesidades de tu aplicación. A continuación se describen los tres tipos más comunes:
             </p>
@@ -33,8 +33,8 @@ function Navegacion() {
             </ul>
           </section>
     
-          <section className="mb-6 bg-green-100 p-4 rounded-md">
-            <h3 className="text-2xl font-semibold mb-2 text-center text-green-800">Buenas prácticas en navegación</h3>
+          <section className="mb-6 bg-green-100 p-4 rounded-md max-w-5xl mx-auto">
+            <h3 className="text-3xl font-semibold mb-2 text-center text-green-800">Buenas prácticas en navegación</h3>
             <p className="text-base">
               Una buena implementación de la navegación es esencial para una experiencia de usuario fluida y agradable. A continuación, se mencionan algunas buenas prácticas:
             </p>
