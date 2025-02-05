@@ -5,14 +5,14 @@ function Accesibilidad() {
     <div className="p-4">
       <h1 className='text-5xl font-bold mb-10 text-green-800 text-center'>Accesibilidad y Diseño Inclusivo</h1>
 
-      <section className="usabilidad-section">
+      <section className="usabilidad-section slide-from-right">
         <h3 className="text-3xl font-semibold mb-2 text-center text-green-800">Uso de etiquetas <code>accessibilityLabel</code></h3>
         <p className="text-base">
           Las etiquetas <code>accessibilityLabel</code> son esenciales para mejorar la accesibilidad en las aplicaciones. Proporcionan una descripción clara y concisa de los elementos de la interfaz, permitiendo que las personas con discapacidades visuales o auditivas puedan interactuar con ellos a través de lectores de pantalla o tecnologías asistivas.
         </p>
       </section>
 
-      <section className="usabilidad-section">
+      <section className="usabilidad-section slide-from-left">
         <h3 className="text-3xl font-semibold mb-2 text-center text-green-800">Contrastes de color adecuados</h3>
         <p className="text-base mb-4">
           Un contraste adecuado entre el texto y el fondo es fundamental para garantizar que las personas con deficiencias visuales puedan leer el contenido sin dificultades. Se recomienda un contraste de al menos 4.5:1 para texto normal y 3:1 para texto grande, según las pautas WCAG.
@@ -23,7 +23,7 @@ function Accesibilidad() {
         </ul>
       </section>
 
-      <section className="usabilidad-section">
+      <section className="usabilidad-section slide-from-right">
         <h3 className="text-3xl font-semibold mb-2 text-center text-green-800">Fuentes legibles y escalabilidad</h3>
         <p className="text-base">
           Las fuentes legibles y escalables son clave para una buena accesibilidad. Usar fuentes sans-serif, como Arial o Helvetica, garantiza una mayor claridad. Además, el diseño debe ser adaptable, permitiendo que los usuarios aumenten el tamaño del texto sin afectar la legibilidad.

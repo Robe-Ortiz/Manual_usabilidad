@@ -13,7 +13,7 @@ function Header({ toggleMenu, isOpen }) {
 
         {/* Menú desplegable en pantallas pequeñas */}
         {isOpen && (
-          <ul className="absolute top-full w-80 bg-green-800 text-white p-4 rounded-md shadow-md md:hidden h-auto mt-4 mx-4 mb-4">
+          <ul className="absolute top-full w-80 bg-green-800 text-white p-4 rounded-md shadow-md md:hidden h-auto mt-4 mx-4 mb-4 z-50">
             <h3 className="text-center text-xl font-bold text-white py-2 px-4 rounded-md mb-4">Contenido</h3>
             <li><Link to="/" className="block py-2 text-lg whitespace-nowrap">1. Introducción a la accesibilidad</Link></li>
             <li><Link to="/accesibilidad" className="block py-2 text-lg whitespace-nowrap">2. Accesibilidad y Diseño Inclusivo</Link></li>

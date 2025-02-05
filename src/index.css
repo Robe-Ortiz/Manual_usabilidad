@@ -6,6 +6,36 @@
 .usabilidad-section {
   @apply mb-6 bg-green-100 p-4 rounded-md max-w-3xl mx-auto;
 }
+.slide-from-right {
+    animation: slide-from-right 1.0s ease-out forwards;
+  }
+  
+  @keyframes slide-from-right {
+    0% {
+      transform: translateX(100px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  .slide-from-left {
+    animation: slide-from-left 1.9s ease-out forwards;
+  }
+  
+  @keyframes slide-from-left {
+    0% {
+      transform: translateX(-100px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
 @theme {
     --font-sans: InterVariable, sans-serif;
 }

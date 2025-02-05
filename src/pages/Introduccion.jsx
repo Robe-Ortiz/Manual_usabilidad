@@ -5,7 +5,7 @@ function Introduccion() {
     <div className="p-4">
       <h1 className='text-5xl font-bold mb-10 text-green-800 text-center'>Introducción a la Usabilidad</h1>
       
-      <section className="usabilidad-section">
+      <section className="usabilidad-section slide-from-right">
         <h2 className="text-3xl font-semibold mb-2 text-center text-green-800">¿Qué es la usabilidad?</h2>
         <p className="text-base">
           La usabilidad es la medida de qué tan fácil y eficiente es para los usuarios interactuar con un sistema, aplicación, sitio web o producto.
@@ -13,7 +13,7 @@ function Introduccion() {
         </p>
       </section>
 
-      <section className="usabilidad-section">
+      <section className="usabilidad-section slide-from-left">
   <h3 className="text-3xl font-semibold mb-2 text-center text-green-800">Principios básicos</h3>
   <ul className="list-disc pl-5 list-inside marker:text-green-800">
     <li><span className="font-semibold text-green-600">Aprendizaje rápido</span>: Un usuario nuevo debe poder comprender cómo funciona el sistema con facilidad.</li>
@@ -24,7 +24,7 @@ function Introduccion() {
   </ul>
 </section>
 
-      <section className="usabilidad-section">
+      <section className="usabilidad-section slide-from-right">
         <h3 className="text-3xl font-semibold mb-2 text-center text-green-800">Diferencias entre UX y UI</h3>
         <p className="text-base mb-4">UX (User Experience) y UI (User Interface) son conceptos relacionados pero distintos en el diseño de productos digitales.</p>
         <ul className="space-y-2">
