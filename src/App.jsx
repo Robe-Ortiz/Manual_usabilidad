@@ -1,3 +1,4 @@
+import "@fontsource/roboto"; 
 import Footer from "./components/Footer"
 import Header from "./components/Header"
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom"
@@ -19,7 +20,7 @@ function App() {
   return (
     <>
       <Router>
-        <div className="flex flex-col min-h-screen">
+        <div className=" flex flex-col min-h-screen">
           <Header toggleMenu={toggleMenu} isOpen={isOpen} />         
           <main className="flex-1 p-4">
             <Routes>

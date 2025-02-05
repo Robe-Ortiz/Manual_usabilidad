@@ -1,1 +1,11 @@
 @import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.usabilidad-section {
+  @apply mb-6 bg-green-100 p-4 rounded-md max-w-3xl mx-auto;
+}
+@theme {
+    --font-sans: InterVariable, sans-serif;
+}

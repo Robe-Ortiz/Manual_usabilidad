@@ -17,10 +17,10 @@ function Header({ toggleMenu, isOpen }) {
             <h3 className="text-center text-xl font-bold text-white py-2 px-4 rounded-md mb-4">Contenido</h3>
             <li><Link to="/" className="block py-2 text-lg whitespace-nowrap">1. Introducción a la accesibilidad</Link></li>
             <li><Link to="/accesibilidad" className="block py-2 text-lg whitespace-nowrap">2. Accesibilidad y Diseño Inclusivo</Link></li>
-            <li><Link to="/interfaces" className="block py-2 text-lg whitespace-nowrap">3. Diseño de Interfaces (UI) Eficientes</Link></li>
+            <li><Link to="/interfaces" className="block py-2 text-lg whitespace-nowrap">3. Diseño de Interfaces (UI)</Link></li>
             <li><Link to="/navegacion" className="block py-2 text-lg whitespace-nowrap">4. Navegación y Flujo de Usuario</Link></li>
             <li><Link to="/practicas" className="block py-2 text-lg whitespace-nowrap">5. Buenas Prácticas en Desarrollo</Link></li>
-            <li><Link to="/testing" className="block py-2 text-lg whitespace-nowrap">6. Testing de Usabilidad en React.js</Link></li>
+            <li><Link to="/testing" className="block py-2 text-lg whitespace-nowrap">6. Testing de Usabilidad en React</Link></li>
           </ul>
         )}
 
