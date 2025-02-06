@@ -4,8 +4,9 @@
 @tailwind utilities;
 
 .usabilidad-section {
-  @apply mb-6 bg-green-100 p-4 rounded-md max-w-3xl mx-auto;
+  @apply mb-20 bg-green-100 p-4 rounded-md max-w-3xl mx-auto text-lg;
 }
+
 .slide-from-right {
     animation: slide-from-right 1.0s ease-out forwards;
   }
@@ -35,8 +36,35 @@
       opacity: 1;
     }
   }
-    
 
-@theme {
-    --font-sans: InterVariable, sans-serif;
-}
+  @layer components {
+    .titulo-principal {
+      @apply text-5xl font-bold mb-10 text-green-800 text-center;
+    }
+  }
+  
+
+  @layer components {
+    .titulo-seccion {
+      @apply text-3xl font-semibold mb-8 text-center text-green-800;
+    }
+  }
+
+  @layer components {
+    .picture {
+      @apply w-full max-w-3xl mx-auto mb-20;
+    }
+  }
+
+  @layer components {
+    .caption {
+      @apply text-center text-gray-500 mt-2;
+    }
+  }
+  
+  
+  
+    
+  * {
+    font-family: 'Inter', sans-serif !important;
+  }

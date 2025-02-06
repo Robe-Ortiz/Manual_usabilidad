@@ -3,7 +3,7 @@ import { MenuIcon } from "@heroicons/react/solid";
 
 function Header({ toggleMenu, isOpen }) {
   const closeMenu = () => {
-    toggleMenu();  // Llama a la función toggleMenu para cerrar el menú
+    toggleMenu(); 
   };
 
   return (
@@ -26,11 +26,11 @@ function Header({ toggleMenu, isOpen }) {
           <ul className="absolute top-full w-80 bg-green-800 text-white p-4 rounded-md shadow-md md:hidden h-auto mt-4 mx-4 mb-4 z-2">
             <h3 className="text-center text-3xl font-bold text-white py-4 px-4 rounded-md mb-4">Contenido</h3>
             <li><Link to="/" className="block py-4 text-lg whitespace-nowrap text-center border-t-2 border-b-2 border-white focus:outline-none slide-from-right" onClick={closeMenu}>Introducción a la accesibilidad</Link></li>
-            <li><Link to="/accesibilidad" className="block py-4 text-lg whitespace-nowrap text-center border-b-2 border-white  focus:outline-none slide-from-right" onClick={closeMenu}>Accesibilidad y Diseño Inclusivo</Link></li>
+            <li><Link to="/accesibilidad" className="block py-4 text-lg whitespace-nowrap text-center border-b-2 border-white  focus:outline-none slide-from-left" onClick={closeMenu}>Accesibilidad y Diseño Inclusivo</Link></li>
             <li><Link to="/interfaces" className="block py-4 text-lg whitespace-nowrap text-center border-b-2 border-white focus:outline-none slide-from-right" onClick={closeMenu}>Diseño de Interfaces (UI)</Link></li>
-            <li><Link to="/navegacion" className="block py-4 text-lg whitespace-nowrap text-center border-b-2 border-white focus:outline-none slide-from-right" onClick={closeMenu}>Navegación y Flujo de Usuario</Link></li>
+            <li><Link to="/navegacion" className="block py-4 text-lg whitespace-nowrap text-center border-b-2 border-white focus:outline-none slide-from-left" onClick={closeMenu}>Navegación y Flujo de Usuario</Link></li>
             <li><Link to="/practicas" className="block py-4 text-lg whitespace-nowrap text-center border-b-2 border-white focus:outline-none slide-from-right" onClick={closeMenu}>Buenas Prácticas en Desarrollo</Link></li>
-            <li><Link to="/testing" className="block py-4 text-lg whitespace-nowrap text-center border-b-2 border-white focus:outline-none slide-from-right" onClick={closeMenu}>Testing de Usabilidad en React</Link></li>
+            <li><Link to="/testing" className="block py-4 text-lg whitespace-nowrap text-center border-b-2 border-white focus:outline-none slide-from-left" onClick={closeMenu}>Testing de Usabilidad en React</Link></li>
           </ul>
         )}
 

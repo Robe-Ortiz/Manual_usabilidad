@@ -3,39 +3,51 @@ import React from 'react'
 function Navegacion() {
     return (
         <div className="p-4">
-          <h1 className='text-5xl font-bold mb-10 text-green-800 text-center'>Navegación y Flujo de Usuario</h1>
+          <h1 className="titulo-principal">Navegación y Flujo de Usuario</h1>
+
+          <figure className="picture">
+            <img 
+              src="navegacion.png" 
+              alt="Descripción de la imagen" 
+              className="w-full rounded-lg shadow-md slide-from-left"
+            />
+            <figcaption className="caption slide-from-left">
+              Imagen ilustrativa sobre navegación
+            </figcaption>
+          </figure>
+
     
           <section className="usabilidad-section slide-from-right">
-            <h3 className="text-3xl font-semibold mb-2 text-center text-green-800">Implementación de React Navigation</h3>
-            <p className="text-base">
+            <h3 className="titulo-seccion">Implementación de React Navigation</h3>
+            <p>
               React Navigation es una librería popular para gestionar la navegación dentro de aplicaciones React Native. Permite crear flujos de usuario y gestionar el estado de las pantallas. Ofrece diversas opciones de navegación, como navegación en pilas, en pestañas y en cajón, lo que facilita la construcción de interfaces de usuario dinámicas y atractivas.
             </p>
           </section>
     
           <section className="usabilidad-section slide-from-left">
-            <h3 className="text-3xl font-semibold mb-2 text-center text-green-800">Tipos de navegación (Stack, Tabs, Drawer)</h3>
-            <p className="text-base mb-4">
+            <h3 className="titulo-seccion">Tipos de navegación (Stack, Tabs, Drawer)</h3>
+            <p className="mb-4">
               React Navigation ofrece varios tipos de navegación que puedes utilizar dependiendo de la estructura y las necesidades de tu aplicación. A continuación se describen los tres tipos más comunes:
             </p>
             <ul className="space-y-2">
               <li>
                 <h5 className="text-l font-medium text-green-600 italic">Stack Navigation</h5>
-                <p className="text-base">La navegación en pilas permite gestionar una serie de pantallas en una secuencia. Cada nueva pantalla se apila encima de la anterior, lo que permite navegar hacia atrás para regresar a las pantallas previas. Ideal para flujos de usuario donde es necesario avanzar y retroceder entre vistas (por ejemplo, una aplicación de registros de usuario).</p>
+                <p>La navegación en pilas permite gestionar una serie de pantallas en una secuencia. Cada nueva pantalla se apila encima de la anterior, lo que permite navegar hacia atrás para regresar a las pantallas previas. Ideal para flujos de usuario donde es necesario avanzar y retroceder entre vistas (por ejemplo, una aplicación de registros de usuario).</p>
               </li>
               <li>
                 <h5 className="text-l font-medium text-green-600 italic">Tabs Navigation</h5>
-                <p className="text-base">La navegación por pestañas permite cambiar entre diferentes secciones de la aplicación utilizando una barra de pestañas ubicada en la parte inferior o superior de la pantalla. Ideal para aplicaciones que requieren mostrar varias secciones principales de forma simultánea, como redes sociales o aplicaciones de noticias.</p>
+                <p>La navegación por pestañas permite cambiar entre diferentes secciones de la aplicación utilizando una barra de pestañas ubicada en la parte inferior o superior de la pantalla. Ideal para aplicaciones que requieren mostrar varias secciones principales de forma simultánea, como redes sociales o aplicaciones de noticias.</p>
               </li>
               <li>
                 <h5 className="text-l font-medium text-green-600 italic">Drawer Navigation</h5>
-                <p className="text-base">La navegación en cajón (drawer) se refiere a un panel deslizante que aparece al tocar un botón, generalmente en la parte superior izquierda de la pantalla. El menú contiene enlaces a diferentes secciones de la aplicación. Es útil para aplicaciones con una estructura de navegación más compleja, permitiendo acceder a varias secciones de forma rápida y cómoda.</p>
+                <p>La navegación en cajón (drawer) se refiere a un panel deslizante que aparece al tocar un botón, generalmente en la parte superior izquierda de la pantalla. El menú contiene enlaces a diferentes secciones de la aplicación. Es útil para aplicaciones con una estructura de navegación más compleja, permitiendo acceder a varias secciones de forma rápida y cómoda.</p>
               </li>
             </ul>
           </section>
     
           <section className="usabilidad-section slide-from-right">
-            <h3 className="text-3xl font-semibold mb-2 text-center text-green-800">Buenas prácticas en navegación</h3>
-            <p className="text-base">
+            <h3 className="titulo-seccion">Buenas prácticas en navegación</h3>
+            <p>
               Una buena implementación de la navegación es esencial para una experiencia de usuario fluida y agradable. A continuación, se mencionan algunas buenas prácticas:
             </p>
             <ul className="list-disc pl-5 list-inside marker:text-green-800">
